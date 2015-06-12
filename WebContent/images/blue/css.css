@@ -1,0 +1,58 @@
+.showdiv{
+	position:absolute; z-index:101;
+	}
+.topleft
+{
+	background:url(topleft.gif);
+	width:11px; 
+	height:26px;
+	float:left;
+	font-size:0px;
+}
+.topmiddle{
+	height:26px;
+	float:left;
+	background:url(topxian.gif);
+}
+.topright
+{
+	background:url(topright.gif);
+	width:9px;
+	height:26px;
+	float:left;
+	font-size:0px;
+}
+.clear{ clear:both; font-size:0px;}
+.middleleft{
+	background:url(leftxian.gif);
+	width:4px;
+	float:left;
+}
+.middlemiddle{float:left; color:#00F;}
+.middleright{
+	background:url(rightxian.gif);
+	width:4px;
+	float:left;
+}
+.endleft{
+	background:url(endleft.gif);
+	width:11px;
+	height:8px;
+	float:left;
+	font-size:0px;
+}
+.endmiddle{
+	background:url(endxian.gif);
+	float:left;
+	height:8px;
+	font-size:0px;
+}
+.endright{
+	background:url(endright.gif);
+	width:9px;
+	height:8px;
+	float:left;
+	font-size:0px;
+}
+	
+	

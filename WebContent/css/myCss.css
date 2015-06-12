@@ -1,0 +1,18 @@
+#userList{
+	font-size:15px; 
+	border:solid 1px gray;
+	border-collapse:collapse;
+	width:350px;
+}
+#userList th,#userList td{
+	border:solid 1px gray;
+	border-collapse:collapse;
+	text-align:center;
+}
+#userList tr th{
+background-color:#B3B3B3;
+}
+h3{
+	color:red;
+	margin:0px 0px 50px 0px;
+}

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css" />
+
+<!--Luara样式文件-->
+<!--左滑样式-->
+<link rel="stylesheet" href="css/luara.left.css" />
+
+</head>
+<body>
+	<script src="js/jquery-1.7.2.js"></script>
+	<!--Luara js文件-->
+	<script src="js/jquery.luara.0.0.1.min.js"></script>
+	<!--Luara图片切换骨架begin-->
+	<div class="example2">
+		<ul>
+			<li><img src="images/1.jpg" alt="1" width="90%" height="100%"/></li>
+			<li><img src="images/2.jpg" alt="2" width="90%" height="100%"/></li>
+			<li><img src="images/3.jpg" alt="3" width="90%" height="100%"/></li>
+			<li><img src="images/4.jpg" alt="4" width="90%" height="100%"/></li>
+		</ul>
+		<ol>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ol>
+	</div>
+	<!--Luara图片切换骨架end-->
+	<script>
+		$(function() {
+			<!--调用Luara示例-->
+			$(".example2").luara({
+				width : "450",
+				height : "265",
+				interval : 4500,
+				selected : "seleted",
+				deriction : "left"
+			});
+
+		});
+	</script>
+</body>
+</html>

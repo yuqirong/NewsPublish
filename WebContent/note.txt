@@ -1,0 +1,3 @@
+部署注意事项：
+1.Lucene索引库的绝对路径
+2.Ueditor的config.json的url

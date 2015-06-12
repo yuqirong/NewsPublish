@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Body>
+		<getWeatherResponse xmlns="http://WebXml.com.cn/">
+			<getWeatherResult>
+				<string>浙江 杭州</string>
+				<string>富阳</string>
+				<string>2049</string>
+				<string>2015/04/20 14:15:37</string>
+				<string>今日天气实况：气温：13℃；风向/风力：西北风 3级；湿度：82%</string>
+				<string>空气质量：暂无；紫外线强度：最弱</string>
+				<string>太阳镜指数：不需要。白天光线弱不需要佩戴太阳镜。
+					穿衣指数：。
+					旅游指数：适宜。有降水，享受雨中出游乐趣要携带雨具。
+					运动指数：较不宜。有降水，推荐您在室内进行休闲运动。
+					洗车指数：不宜。有雨，雨水和泥水会弄脏爱车。
+					化妆指数：保湿。请选用中性保湿型霜类化妆品。
+					感冒指数：极易发。强降温，天气寒冷，极易发生感冒。
+					空气污染指数：暂无。
+					紫外线指数：最弱。辐射弱，涂擦SPF8-12防晒护肤品。
+					舒适度指数：舒适。白天不冷不热，风力不大。
+				</string>
+				<string>4月20日 阵雨转阴</string>
+				<string>9℃/20℃</string>
+				<string>北风微风</string>
+				<string>3.gif</string>
+				<string>2.gif</string>
+				<string>4月21日 多云</string>
+				<string>10℃/19℃</string>
+				<string>北风微风</string>
+				<string>1.gif</string>
+				<string>1.gif</string>
+				<string>4月22日 多云转阴</string>
+				<string>12℃/22℃</string>
+				<string>北风转东南风微风</string>
+				<string>1.gif</string>
+				<string>2.gif</string>
+				<string>4月23日 多云</string>
+				<string>14℃/24℃</string>
+				<string>东南风转北风微风</string>
+				<string>1.gif</string>
+				<string>1.gif</string>
+				<string>4月24日 阴转多云</string>
+				<string>13℃/22℃</string>
+				<string>北风微风</string>
+				<string>2.gif</string>
+				<string>1.gif</string>
+			</getWeatherResult>
+		</getWeatherResponse>
+	</soap:Body>
+</soap:Envelope>
